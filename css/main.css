@@ -1,7 +1,28 @@
-/* Hint! the @font-face rule needs to be the first thing in your CSS file!*/
+@font-face {
+    font-family: 'abhaya_librebold';
+    src: url('../fonts/abhayalibre-bold-webfont.woff2') format('woff2'),
+         url('../fonts/abhayalibre-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'archivo_narrowbold';
+    src: url('../fonts/archivonarrow-bold-webfont.woff2') format('woff2'),
+         url('..fonts/archivonarrow-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
-
-/* Start the CSS*/
+}
+@font-face {
+	font-family: 'abhaya_librebold';
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'archivo_narrowbold';
+	font-weight: normal;
+	font-style: normal;
+}
 body {
 	margin: 0;
 	padding: 0;
@@ -20,8 +41,11 @@ body {
 	background-color: #fff;
 	box-shadow: 0px 0px 15px 5px rgba(0,0,0,.15);
 }
-
+body{
+	font-family: 'archivo_narrowbold', sans-serif;
+}
 h1 {
+
 
 }
 
@@ -46,5 +70,6 @@ h6 {
 }
 
 p {
-
+	font-weight: normal;
+  	font-style: normal;
 }
